@@ -9,6 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
+import Avatar from '@mui/material/Avatar';
 
 const pages = ['Projects', 'Blog', 'Contact'];
 
@@ -27,6 +28,10 @@ function ResponsiveAppBar() {
 		<AppBar>
 			<Container maxWidth='xl'>
 				<Toolbar disableGutters>
+					<Avatar
+						alt='Kelly Weddle'
+						src='/src/assets/logo-192x192.png'
+					></Avatar>
 					<Typography
 						variant='h6'
 						noWrap
