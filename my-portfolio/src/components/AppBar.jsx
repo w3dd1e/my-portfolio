@@ -33,7 +33,7 @@ function ResponsiveAppBar() {
 						component='a'
 						href='#app-bar-with-responsive-menu'
 						sx={{
-							mr: 2,
+							ml: 2,
 							display: { xs: 'none', md: 'flex' },
 							fontFamily: 'monospace',
 							fontWeight: 700,
@@ -65,6 +65,7 @@ function ResponsiveAppBar() {
 					</Typography>
 					<Box
 						sx={{
+							mr: 2,
 							flexGrow: 1,
 							display: { xs: 'none', md: 'flex' },
 							justifyContent: 'flex-end',
@@ -74,7 +75,12 @@ function ResponsiveAppBar() {
 							<Button
 								key={page}
 								onClick={handleCloseNavMenu}
-								sx={{ my: 2, color: 'white', display: 'block' }}
+								sx={{
+									my: 2,
+									color: 'white',
+									display: 'block',
+									px: '20px',
+								}}
 							>
 								{page}
 							</Button>
