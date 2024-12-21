@@ -31,6 +31,7 @@ function ResponsiveAppBar() {
 					<Avatar
 						alt='Kelly Weddle'
 						src='/src/assets/logo-192x192.png'
+						sx={{mr: 2}}
 					></Avatar>
 					<Typography
 						variant='h6'
